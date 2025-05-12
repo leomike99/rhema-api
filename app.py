@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from routes.presence import presence_bp
+app.register_blueprint(presence_bp)
+
 
 app = Flask(__name__)
 CORS(app)
