@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 Flask==3.0.3\nflask-cors\ngunicorn
+=======
+Flask==3.0.3
+flask-cors==4.0.0
+gunicorn
+>>>>>>> ce52472bcac5c49318317abb9f667b64f068f095
